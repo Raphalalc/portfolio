@@ -4,6 +4,8 @@ function jour(){
     body.style.backgroundColor="#f0e7db";
     body.style.color="black";
     
+    document.getElementById('navigation').classList.remove('navigationnuit');
+    document.getElementById('navigation').classList.add('navigationjour');
     var navigation= document.getElementById("n1");
     navigation.style.color="black";
     var navigation2= document.getElementById("n2");
@@ -47,6 +49,8 @@ function jour(){
         body.style.backgroundColor="#202023";
         body.style.color="white";
         
+        document.getElementById('navigation').classList.remove('navigationjour');
+        document.getElementById('navigation').classList.add('navigationnuit');
         var navigation= document.getElementById("n1");
         navigation.style.color="white";
         var navigation2= document.getElementById("n2");
