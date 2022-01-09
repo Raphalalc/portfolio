@@ -240,6 +240,14 @@ body{
     }
 }
 
+@media screen and (max-width: 767px){
+    #contact1{
+     top:-2500px;
+    }}
+    @media screen and (max-width: 546px){
+      #contact1{
+       top:-2900px;
+}}
 @media screen and (max-width: 368px){
     #contact1{
         width:300px;
