@@ -9,7 +9,10 @@
 body{
     background-color:#202023;
     color: #fff ;
-   height:740px;
+   height:840px;
+   font-family: 'Yrsa', serif;
+   font-size:18px;
+
 }
 
 html {
@@ -254,7 +257,7 @@ a{
     display: inline;
     list-style: none ;
     position:relative;
-    top:-100px;
+    top:00px;
     opacity:0;
     animation-delay:1s;
     animation-name:lettrehaut;
@@ -263,7 +266,7 @@ a{
   }
 
 
-  #footer li:nth-child(n+1){margin-left:50px; margin-right:50px;}
+  #footer li:nth-child(n+1){margin-right:50px;}
 
  /*  RESPONSIVE */
  @media screen and (max-width: 1420px){
@@ -278,25 +281,25 @@ a{
     }
     
     @media screen and (max-width: 991px){
-    .navigationnuit{
-        position:fixed;
-        left:-8px;
-        top:-16px;
-        background-color:#2c2d2d;
-        height:100px;
-        width:110%; 
-        z-index: 1;
-    }
-    
-    .navigationjour{
-        position:fixed;
-        left:-8px;
-        top:-16px;
-        background-color:#f4ede4 ;
-        height:100px;
-        width:110%; 
-        z-index: 1;
-    }
+        .navigationnuit{
+            position:fixed;
+            left:-8px;
+            top:-16px;
+            background-color:#2c2d2d;
+            height:100px;
+            width:110%; 
+            z-index: 1;
+        }
+        
+        .navigationjour{
+            position:fixed;
+            left:-8px;
+            top:-16px;
+            background-color:#f4ede4 ;
+            height:100px;
+            width:110%; 
+            z-index: 1;
+        }
     
     #buttonsun{left:5%;}
     #buttonmoon{left:5%;}
@@ -460,8 +463,14 @@ body{
     #footer li:nth-child(2){left:20%;}
     #footer li:nth-child(3){left:65%; }
     
-    body{height:1240px;}
-    #footer li {
+    body{
+     
+       height:1240px;
+   
+    }
+
+    #footer li {   
+       
         top:1200px; 
     }
 }
