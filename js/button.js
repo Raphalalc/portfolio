@@ -62,8 +62,7 @@ function jour(){
         foot.style.color="white";
         var foot2 = document.getElementById("f2");
         foot2.style.color="white";
-        var foot3 = document.getElementById("f3");
-        foot3.style.color="white";
+       
 
         document.getElementById('buttonmoon').classList.remove('apparaitre');
         
