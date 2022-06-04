@@ -23,8 +23,7 @@ function jour(){
     foot.style.color="black";
     var foot2 = document.getElementById("f2");
     foot2.style.color="black";
-    var foot3 = document.getElementById("f3");
-    foot3.style.color="black";
+   
 
     var design= document.getElementById("designprint");
     design.style.color="white";
